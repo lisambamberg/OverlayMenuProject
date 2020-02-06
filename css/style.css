@@ -22,25 +22,25 @@ h1 {
   text-decoration: none;
 }
 
-.btn-open::after {
-  font-family: "FontAwesome";
-  content: "\f0c9";
+.fas fa-bars::after {
+  /*font-family: "FontAwesome";
+  content: "\f0c9";*/
   color: #333;
   transition: color 0.2s;
 }
 
-.btn-open:hover::after {
+.fas fa-bars:hover::after {
   color: #1c9769;
 }
 
-.btn-close::after {
-  font-family: "FontAwesome";
-  content: "\f00d";
+.fas fa-times::after {
+  /*font-family: "FontAwesome";
+  content: "\f00d";*/
   color: #333;
   transition: color 0.2s;
 }
 
-.btn-close:hover::after {
+.fas fa-times:hover::after {
   color: #1c9769;
 }
 

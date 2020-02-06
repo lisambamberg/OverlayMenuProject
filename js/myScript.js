@@ -7,12 +7,12 @@ function toggleMenu(e) {
 
   var eventTarget = e.target;
 
-  if (eventTarget.className == "btn-open") {
+  if (eventTarget.className == "fas fa-bars") {
     fadeIn(divOverlay, speed);
-    eventTarget.className = "btn-close";
-  } else if (eventTarget.className == "btn-close") {
+    eventTarget.className = "fas fa-times";
+  } else if (eventTarget.className == "fas fa-times") {
     fadeOut(divOverlay, speed);
-    eventTarget.className = "btn-open";
+    eventTarget.className = "fas fa-bars";
   }
 }
 
