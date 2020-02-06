@@ -1,2 +1,2 @@
-# OverlayMenuProject
-JavaScript Overlay Menu Project 
+# Overlay Menu Project
+This project is intended to serve as a practice project that uses HTML, CSS, and Javascript to build an overlay menu navigation that will display in the browser. The user will be taken to a welcome page including a menu graphic that once clicked on will change from an open to a closed graphic. The page will fade out and present the user with various options that will change color as the user navigates over it. 
